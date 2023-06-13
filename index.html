@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>1-MP3</title>
 </head>
 <body>
-    <header>
-        <div class="Commencer">
-            <h1>ET SI C'ETAIT TOI ?</h1>
-            <div class="bouton"><a class="bouton-commencer" href="#">Commencer</a></div>
+    <header class="">
+        <div class="Commencer d-flex column">
+            <img class="logo" src="img/logo.png">
+            <h1 >ET SI C'ETAIT TOI ?</h1>
+            <div class="bouton"><a class="bouton-commencer" href="#scolaire">Commencer</a></div>
         </div>
     </header>
     <main>
+        <div class="temps d-flex m-b">
+            <p><span id="horloge">8</span>:00</p>
+        </div>
+
+        <section class="m-b200 d-flex column">
+            <h2 Class="HS m-b" id="scolaire">HARCELEMENT SCOLAIRE</h2>
+            <div class="Chartjs">
+                <canvas class="m-b" id="myChart"></canvas>
+                
+            </div>
+        </section>
+        
+
+
 
     </main>
 
-</body>
+<script src="chart.js"></script>
 <script src="app.js"></script>
+
+</body>
 </html>
