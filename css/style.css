@@ -80,6 +80,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    border: 3px white solid;
 }
 
 .logo{
@@ -332,3 +333,69 @@ margin-right: 3rem;
  /* Fin section 4 */
 
 /* Fin Main */
+
+/* Footer */
+
+.fondfooter{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    border: 3px solid black;
+    margin-top: 5rem;
+    padding: 4rem;
+}
+
+.textefooter{
+    width: 30%;
+    background-color: #009FE3;
+    border: 3px solid black;
+    padding: 2rem;
+    text-align: center;
+}
+
+.textefooter a{
+    color: black;
+    font-size: 20px;
+    transition:0.5s;
+}
+
+.textefooter a:hover{
+    color:rgb(201, 36, 43);
+    transition: 0.5s;
+    font-size: 21px;
+}
+
+.infofooter{
+    margin-bottom: 3.2rem;
+}
+
+.reseaux a img{
+    width: 100%;
+}
+
+.reseaux{
+    background-color: rgb(201, 36, 43) ;
+    border: 3px solid black;
+    padding: 2rem;
+    width: 13%;
+    margin-left: 6rem;
+}
+
+.rejoinsnous{
+    color:white;
+    background-color:rgb(250, 199, 17);
+    padding: 1rem;
+    font-size: 12px;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+.footercontain{
+    justify-content: center;
+}
+
+
+/* fin footer */
