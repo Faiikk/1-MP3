@@ -35,10 +35,6 @@ a{
     margin-bottom: 2rem;
 }
 
-.m-b200{
-    margin-bottom: 600px;
-}
-
 html{
     scroll-behavior: smooth; 
 }
@@ -66,6 +62,10 @@ main{
     font-family: "Supercomic";
 }
 
+.m-t{
+    margin-top: 3rem;
+}
+
 
 /* Header */
 
@@ -90,7 +90,7 @@ header{
 
 h1{
     text-align: center;
-    line-height: 600px;
+    line-height: 200px;
     color: white;
     font-size: 140px;
     font-family: "BD";
@@ -155,14 +155,14 @@ h1{
 .harceleur { 
     margin-right: 3rem;
     background-color: aliceblue;
-    border: 2px solid;
+    border: 3px solid;
     padding: 3rem;
     width: 50%;
     margin-left: 2.5rem;
 }
     
 .Chartjs { 
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 75px;
     background-color: white;
     width: 50%;
@@ -173,13 +173,11 @@ h1{
 }
 
 .texteharcelement { 
-    background-color: aliceblue;
-    border: 2px solid black;
-    margin-top: 3rem;
-    margin-left: 6rem;
+    border: 3px solid black;
+    margin-left: 5.5rem;
     padding: 2rem;
     background-color: rgb(201, 36, 43);
-    
+    margin-bottom: 3rem;
  }
 
  .texteharcelement p{
@@ -187,16 +185,101 @@ h1{
     font-size: 15px;
     text-align: center;
     color: white;
-
  }
-    
-    
-
 
 /* Fin section 1 */
 
+/* Section 2 */
 
-/* Section... */
+.nuage{
+    width: 40%;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+    transition: 2s;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.nuage:hover{
+    width: 45%;
+    transition: 2s;
+}
+
+.temoin{
+    width: 45%;
+}
+
+h3{
+    font-size: 19px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.titretemoin{
+    width: 100%;
+}
+
+.letemoinpeux{
+    margin-top: 4rem;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.letemoinpeux:hover{
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.fondtemoin{
+    background-color: rgb(250, 199, 17);
+    padding: 3rem;
+    border: 3px solid black;
+}
+
+/* Fin section 2 */
+
+/* section 3 */
+
+.professeur{
+    margin-bottom: 4rem;
+}
+
+.titreadulte{
+    width: 47%;
+    margin-left:12% ;
+    text-align: center;
+}
+
+.tableau{
+width: 750px;
+margin-top: 100px;
+margin-right: 3rem;
+}
+
+.container{
+    background-color:rgb(250, 199, 17);
+    padding: 2rem;
+    border: 3px solid black;
+    width:40%;
+    margin-top: 7rem;
+}
+
+.incidentgrave{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* Fin section 3 */
+
+/* Section 4 */
 
 .CH img{
     width: 10%;
@@ -219,12 +302,33 @@ h1{
     padding: 1rem;
     background-color: aliceblue;
     font-size: 27px;
-    float: right;
     width: 16%;
-    text-align: center;   
+    text-align: center; 
+    transition: 0.5s;
 }
 
+.telcyber:hover{
+    color: rgb(201, 36, 43);
+    transition: 0.5s;
+}
 
- /* Fin section... */
+.textecyberharcelement{
+    border: 3px solid black;
+    padding: 2rem;
+    background-color: rgb(201, 36, 43);
+    margin-bottom: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.textecyberharcelement{
+    font-family: "Supercomic";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+ /* Fin section 4 */
 
 /* Fin Main */

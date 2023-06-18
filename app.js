@@ -2,7 +2,6 @@ document.addEventListener("scroll", function(){
     var horloge = document.getElementById("horloge");
 
     if (window.scrollY>800){
-
         horloge.innerHTML=8;  
         }
 
