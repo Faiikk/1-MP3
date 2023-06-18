@@ -50,7 +50,7 @@ document.addEventListener("scroll", function(){
         horloge.innerHTML=19;
     }
 
-    if (window.scrollY>3300){
+    if (window.scrollY>4000){
         horloge.innerHTML;
     }
 
